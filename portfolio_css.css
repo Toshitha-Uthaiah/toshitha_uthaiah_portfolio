@@ -1,0 +1,747 @@
+/* Global Layout Set-up */
+* { 
+  box-sizing: border-box;
+}
+  
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #222;
+    background: #CAC5C1	;
+  
+    
+}
+/* Link Styles */
+
+.circle
+{
+    position: relative;
+    bottom: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 2px solid #fff;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    text-align:center;
+    line-height: 100px;
+    font-size: 80px;
+    overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: cadetblue;
+    font-size: 150%;
+}
+a:hover {
+  color: black;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+    color: black;
+}
+/* Section Styles */
+h2{
+    text-align: center;
+    color: black;
+    text-decoration: underline;
+    
+   
+}
+
+.headertwo
+{
+    text-decoration: none;
+}
+
+h3{
+    text-align: center;
+    color: black;
+}
+.main-nav {
+  width: 100%;
+  background: black;
+  min-height: 60px;
+  padding: 10px;
+  position: fixed;
+  text-align: center;
+    opacity: 0.9;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  font-weight: 700;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}
+.nav .name {
+  display: none;
+    font-size: 150%;
+    
+}
+.nav li {
+  padding: 5px 10px 10px 10px;
+}
+.nav a {
+  transition: all .5s;
+}
+.nav a:hover {
+  color: white
+}
+
+header { 
+   text-align: center;
+   background-size: cover;
+   overflow: hidden;
+   padding-top: 60px;
+   line-height: 1.5;
+   background: url('faded.jpg') no-repeat top center ;
+    background-size: cover;
+    font-size: 160%;
+    
+}
+
+.tag {
+  background-color: lightcoral;
+  color: lightcoral;
+  padding: 10px;
+  border-radius: 1px;
+  display: table;
+  margin: 10px auto;
+} 
+
+.resumebutton
+{
+    
+    background:cadetblue;
+    padding: 20px; 
+    width: 114px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 300;
+    display: inline-block;
+    padding-bottom: 0px;
+    padding-top: 20px;
+    padding-right: 10px;
+    
+}
+
+.resumebutton:hover{
+    background: coral;
+    color: aliceblue;
+}
+
+.tagna
+{
+font-size: 80%;
+font-weight: 600;
+
+  color: coral;
+  padding: 10px;
+  border-radius: 5px;
+  display: table;
+  margin: 10px auto;
+    background-color: floralwhite;
+}
+h1
+{
+    color:darkslategrey;
+    background-size: cover;
+    
+}
+
+header .profile-image {
+  margin-top: 50px;
+  width: 250px;
+  height: 250px;
+  border-radius: 10%;
+  border: 3px solid white;
+  transition: all .5s;
+}
+header .profile-image:hover {
+  transform: scale(1.2);
+    transform: translateX(30px);
+    transform: translate3d(10px);
+}
+
+
+header .pro-image:hover {
+  transform: scale(1.3);
+}
+.tag {
+  background-color: #efefef;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  display: table;
+  margin: 10px auto;
+} 
+.location {
+  background-color: #222;
+  color: yellow;
+}
+
+
+.card1 {
+  margin: 30px;
+  padding: 30px 40px 40px;
+  max-width: 1050px;
+  text-align: left;
+  background: #f7f5f0;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  display: inline-block;
+}
+
+.cardee{
+  width: 5000px;
+  height:400px;
+  float:left
+}
+
+#box1
+{
+    width: 5000px;
+  height:400px;
+  float:left;
+background-image: url("design/r.png");
+      
+}
+
+#box2
+{
+    width: 5000px;
+  height:400px;
+  float:left ;
+    background-image: url("design/r2.png");
+}
+
+#box3
+{
+     width: 5000px;
+  height:400px;
+  float:left;
+    background-image: url("design/r3.png");
+}
+
+#box4
+{
+    width: 5000px;
+  height:400px;
+  float:left;
+    background-image: url("design/r4.png");
+}
+
+#box5
+{
+    width: 5000px;
+  height:400px;
+  float:left;
+    background-image: url("design/r5.png");
+      
+}
+
+#box6
+{
+    width: 5000px;
+  height:400px;
+  float:left ;
+  background-image: url("design/r6.png");
+}
+
+#box7
+{
+     width: 5000px;
+  height:400px;
+  float:left;
+  background-image: url("design/r7.png");
+}
+
+#box8
+{
+    width: 5000px;
+  height:400px;
+  float:left;
+   background-image: url("design/r8.png");
+}
+#box9
+{
+    width: 5000px;
+  height:400px;
+  float:left;
+    background-image: url("design/r13.png");
+      
+}
+
+#box10
+{
+    width: 5000px;
+  height:400px;
+  float:left ;
+    background-image: url("design/r10.png");
+}
+
+#box11
+{
+     width: 5000px;
+  height:400px;
+  float:left;
+   background-image: url("design/r15.png");
+}
+
+#box12
+{
+    width: 5000px;
+  height:400px;
+  float:left;
+    background-image: url("design/r14.png");
+}
+
+
+
+
+
+#box1:hover {
+  border-color: coral;
+  transform: scale(1.1);
+  border-radius: 3px;
+}
+#box2:hover {
+  border-color: coral;
+  transform: scale(1.1);
+  border-radius: 3px;
+}
+#box3:hover {
+  border-color: coral;
+  transform: scale(1.1);
+  border-radius: 3px;
+}
+#box4:hover {
+  border-color: coral;
+  transform: scale(1.1);
+  border-radius: 3px;
+}
+
+
+#box1:hover {
+  border-color: coral;
+  transform: scale(1.1);
+  border-radius: 3px;
+}
+#box2:hover {
+  border-color: coral;
+  transform: scale(1.1);
+  border-radius: 3px;
+}
+#box3:hover {
+  border-color: coral;
+  transform: scale(1.1);
+  border-radius: 3px;
+}
+#box4:hover {
+  border-color: coral;
+  transform: scale(1.1);
+  border-radius: 3px;
+}
+
+#box5:hover {
+  border-color: coral;
+  transform: scale(1.1);
+  border-radius: 3px;
+}
+#box6:hover {
+  border-color: coral;
+  transform: scale(1.1);
+  border-radius: 3px;
+}
+#box7:hover {
+  border-color: coral;
+  transform: scale(1.1);
+  border-radius: 3px;
+}
+#box8:hover {
+  border-color: coral;
+  transform: scale(1.1);
+  border-radius: 3px;
+}
+
+#box9:hover {
+  border-color: coral;
+  transform: scale(1.1);
+  border-radius: 3px;
+}
+#box10:hover {
+  border-color: coral;
+  transform: scale(1.1);
+  border-radius: 3px;
+}
+#box11:hover {
+  border-color: coral;
+  transform: scale(1.1);
+  border-radius: 3px;
+}
+#box12:hover {
+  border-color: coral;
+  transform: scale(1.1);
+  border-radius: 3px;
+}
+
+#box13:hover {
+  border-color: coral;
+  transform: scale(1.1);
+  border-radius: 3px;
+}
+#box14:hover {
+  border-color: coral;
+  transform: scale(1.1);
+  border-radius: 3px;
+}
+#box15:hover {
+  border-color: coral;
+  transform: scale(1.1);
+  border-radius: 3px;
+}
+#box16:hover {
+  border-color: coral;
+  transform: scale(1.1);
+  border-radius: 3px;
+}
+
+.card {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: left;
+  background: #f7f5f0;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+}
+
+.projectcard {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: left;
+  background: #f7f5f0;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+     justify-content: space-around;
+    text-decoration: none;
+}
+.card:hover {
+  border-color: coral;
+    
+}
+
+.projectcard:hover {
+  border-color: coral;
+  border-radius:4%;
+    background: #F6E5D6;
+    font: black;
+   
+    
+}
+
+.card1:hover {
+  border-color: coral;
+}
+
+ul.skills {
+  padding: 0;
+  text-align: center;
+}
+
+.skills li {
+  border-radius: 6px;
+  display: inline-block;
+  background: cadetblue;
+  color: white;
+  padding: 5px 10px;
+  margin: 2px;
+}
+
+.skills li:nth-child(odd) {
+  background: coral;
+}
+
+.headers
+{
+    padding-top: 0.9%;
+    text-decoration: none;
+    color: black;
+    
+}
+
+footer {
+
+    background-color: cadetblue;
+    height: 100px;
+    margin: 10px;
+    clear: both;
+    border-radius: 5px;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    font-size: 90%;
+    
+    
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+    color: black;
+}
+
+footer ul li {
+  display: inline-block;
+    color: black;
+}
+
+a.social {
+  display: inline-block;
+  text-indent: -9999px;
+  margin-left: 5px;
+  width: 30px;
+  height: 30px;
+  background-size: 30px 30px;
+  opacity: .5;
+  transition: all .25s;
+}
+a.twitter {
+  background-image: url(images/twitter.svg);
+}
+a.linkedin {
+  background-image: url(images/linkedin.svg);
+}
+a.github {
+  background-image: url(images/github.svg);
+}
+a.social:hover {
+  opacity: 1;
+}
+.clearfix {
+  clear: both;
+}
+
+/* Styles for larger screens */
+@media screen and (min-width: 720px) {
+  
+  .flex {
+      display: flex;
+      max-width: 1200px;
+      justify-content: space-around;
+      margin: 0 auto;
+  }
+
+  header {
+    min-height: 450px;
+  }
+
+  .nav {
+    max-width: 1800px;
+  }
+
+  .nav .name {
+    display: block;
+    margin-right: auto;
+    color: white;
+  }
+
+  main {
+    padding-top: 50px;
+  }
+
+  main p {
+    line-height: 1.6em;
+      justify-content: center;
+  }
+    
+    .aboutme
+    {
+        text-align: justify;
+    text-justify: inter-word;
+        font-size: 110%;
+        
+    }
+
+  footer {
+    font-size: 1.3em;
+    max-width: 2500px;
+    margin: 80px auto auto auto;
+  }
+    
+    .project-header
+    {
+        
+        font:black;
+        text-transform: full-width;
+        color: black;
+        font-weight: 800;
+        font-size: 350%;
+        text-decoration: none;
+        
+        
+    }
+    .project-image
+    {
+        height: 40%;
+        width: 98%;
+    }
+    
+    .project-button
+    {
+        margin-left:auto;
+        margin-right:auto;
+        display:block;
+        margin-top:18%;
+        margin-bottom:0%
+    }
+}
+
+.cicle
+{
+font-size: 48px;}
+
+
+
+/* ANDROID */
+
+.androidcard
+{
+    height: 10%;
+    width: 50%;
+    max-width: 50%;
+}
+
+
+
+
+/*  added*/
+
+/*================================================================================
+
+img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.btn {
+  background-color: white;
+  border: 1px solid @gray-light;
+  //border-radius: 1rem;
+  color: @gray-dark;
+  padding: 0.5rem;
+  text-transform: lowercase;
+}
+
+.btn--block {
+  display: block;
+  width: 100%;
+}
+ 
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards__item {
+  display: flex;
+  padding: 1rem;
+  @media(min-width: 40rem) {
+    width: 50%;
+  }
+  @media(min-width: 56rem) {
+    width: 33.3333%;
+  }
+}
+
+.carddd {
+  background-color: white;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0,0,0,0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  &:hover {
+    .card__image {
+      filter: contrast(100%);
+    }
+  }
+}
+
+.card__content {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.card__image {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  filter: contrast(70%);
+  //filter: saturate(180%);
+  overflow: hidden;
+  position: relative;
+  transition: filter 0.5s cubic-bezier(.43,.41,.22,.91);;
+  &::before {
+    content: "";
+	  display: block;
+    padding-top: 56.25%; // 16:9 aspect ratio
+  }
+  @media(min-width: 40rem) {
+    &::before {
+      padding-top: 66.6%; // 3:2 aspect ratio
+    }
+  }
+}
+
+.card__image--flowers {
+  background-image: url(https://unsplash.it/800/600?image=82);
+}
+
+.card__image--river {
+  background-image: url(https://unsplash.it/800/600?image=11);
+}
+
+.card__image--record {
+  background-image: url(https://unsplash.it/800/600?image=39);
+}
+
+.card__image--fence {
+  background-image: url(https://unsplash.it/800/600?image=59);
+}
+
+.card__title {
+  color: @gray-dark;
+  font-size: 1.25rem;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.card__text {
+  flex: 1 1 auto;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;
+}
+
+*/
+
